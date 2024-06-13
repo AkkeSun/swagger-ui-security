@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: swagger-ui-security
+
+springdoc:
+  swagger-ui:
+    path: /docs
+    urls-primary-name: chameleon
+    urls:
+      - url: http://....
+        name: chameleon
+      - url: http://......
+        name: chameleon_old_app
